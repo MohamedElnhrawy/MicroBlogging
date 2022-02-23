@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MicroBlogging.iml" filepath="$PROJECT_DIR$/.idea/modules/MicroBlogging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MicroBlogging.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MicroBlogging.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/MicroBlogging.base.iml" filepath="$PROJECT_DIR$/.idea/modules/base/MicroBlogging.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/MicroBlogging.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/MicroBlogging.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/MicroBlogging.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/MicroBlogging.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/MicroBlogging.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/MicroBlogging.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature/MicroBlogging.feature.iml" filepath="$PROJECT_DIR$/.idea/modules/feature/MicroBlogging.feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/local/MicroBlogging.local.iml" filepath="$PROJECT_DIR$/.idea/modules/local/MicroBlogging.local.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/remote/MicroBlogging.remote.iml" filepath="$PROJECT_DIR$/.idea/modules/remote/MicroBlogging.remote.iml" />
+    </modules>
+  </component>
+</project>
