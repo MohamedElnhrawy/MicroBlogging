@@ -27,6 +27,11 @@ object PersistenceModule {
             .databaseBuilder(context, AppDatabase::class.java, "database")
             .build()
     }
-
+    /**
+     * Provides [AuthorsDAO] instance
+     */
+    @Provides
+    @Singleton
+    fun provideAuthorDAO(appDatabase: AppDatabase) = appDatabase.authorDao()
 
 }

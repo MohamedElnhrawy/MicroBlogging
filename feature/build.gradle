@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    compileSdk 30
+    compileSdk 31
 
     defaultConfig {
         minSdk 21
-        targetSdk 30
+        targetSdk 31
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -36,6 +36,8 @@ android {
         dataBinding true
         viewBinding true
     }
+
+
 }
 
 dependencies {
@@ -70,7 +72,6 @@ dependencies {
     implementation "androidx.fragment:fragment-ktx:$fragment_ktx"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_runtime"
 
-    implementation 'com.google.android.gms:play-services-location:17.1.0'
 
 
     // Hilt dependencies

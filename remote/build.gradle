@@ -8,11 +8,11 @@ plugins {
 
 
 android {
-    compileSdk 30
+    compileSdk 31
 
     defaultConfig {
         minSdk 21
-        targetSdk 30
+        targetSdk 31
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -33,6 +33,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
 }
 
 dependencies {
@@ -44,7 +45,7 @@ dependencies {
     // Add dependencies
     api "com.squareup.retrofit2:retrofit:$retrofitVersion"
     api "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    api  'com.squareup.okhttp3:logging-interceptor:4.2.1'
+    api  "com.squareup.okhttp3:logging-interceptor:$retrofitInterceptorVersion"
 
 
     implementation "com.google.dagger:hilt-android:$hilt_version"

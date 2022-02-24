@@ -4,7 +4,7 @@
             "outputFile": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/Users/mohamedelnhrawy/.gradle/caches/transforms-3/248c6b73ed0ff56596a740e31843199d/transformed/appcompat-1.2.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/Users/mohamedelnhrawy/.gradle/caches/transforms-3/b27544be93a13cc5b58b2260e925fbec/transformed/appcompat-1.4.1/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

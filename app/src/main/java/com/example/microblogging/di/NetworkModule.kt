@@ -59,7 +59,7 @@ object NetworkModule {
     fun provideRetrofitTest(okHttpClient: OkHttpClient) : Retrofit {
         val contentType = "application/json".toMediaType()
         return Retrofit.Builder()
-            .baseUrl("https://api.openweathermap.org/data/2.5/")
+            .baseUrl("https://sym-json-server.herokuapp.com/")
             .client(okHttpClient)
             .addConverterFactory(GsonConverterFactory.create(GsonBuilder().create()))
             .build()

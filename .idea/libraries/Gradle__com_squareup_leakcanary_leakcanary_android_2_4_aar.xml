@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.squareup.leakcanary:leakcanary-android:2.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8b2eb7e030afdb6900456ed51af9014d/transformed/jetified-leakcanary-android-2.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8b2eb7e030afdb6900456ed51af9014d/transformed/jetified-leakcanary-android-2.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8b2eb7e030afdb6900456ed51af9014d/transformed/jetified-leakcanary-android-2.4/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/917c6db8e56a20cde478e076ad8cb300/transformed/jetified-leakcanary-android-2.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8ae30c32be0da964fb7f32b36604e416/transformed/jetified-leakcanary-android-2.4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8ae30c32be0da964fb7f32b36604e416/transformed/jetified-leakcanary-android-2.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8ae30c32be0da964fb7f32b36604e416/transformed/jetified-leakcanary-android-2.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-android/2.4/2d67ad2482cae756f56ab8feba6bd005d6a3672b/leakcanary-android-2.4-javadoc.jar!/" />

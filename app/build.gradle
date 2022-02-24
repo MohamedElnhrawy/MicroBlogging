@@ -10,7 +10,7 @@ plugins {
 
 
 android {
-    compileSdk 30
+    compileSdk 31
     compileSdkVersion rootProject.ext.compileSdk
 
     defaultConfig {
@@ -21,7 +21,6 @@ android {
         versionName generateVersionName()
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-
 
     }
 
@@ -59,8 +58,8 @@ dependencies {
     implementation project(":feature")
 
 
-    implementation "com.google.dagger:hilt-android:2.38.1"
-    kapt "com.google.dagger:hilt-android-compiler:2.38.1"
+    implementation "com.google.dagger:hilt-android:2.41"
+    kapt "com.google.dagger:hilt-android-compiler:2.41"
 }
 
 
