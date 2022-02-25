@@ -12,20 +12,20 @@
         "source": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",

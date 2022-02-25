@@ -3,7 +3,9 @@ package com.example.data.repository
 import com.example.common.Mapper
 import com.example.common.Resource
 import com.example.data.model.AuthorDTO
+import com.example.data.model.PostDTO
 import com.example.domain.entity.AuthorEntity
+import com.example.domain.entity.PostEntity
 import com.example.domain.repository.Repository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -16,6 +18,7 @@ class RepositoryImp @Inject constructor(
     private val localDataSource: LocalDataSource,
     private val remoteDataSource: RemoteDataSource,
     private val authorMapper : Mapper<AuthorDTO, AuthorEntity>,
+    private val postMapper : Mapper<PostDTO, PostEntity>,
 ) : Repository {
     override suspend fun getAuthors(): Flow<Resource<List<AuthorEntity>>> {
         return flow {
@@ -43,6 +46,20 @@ class RepositoryImp @Inject constructor(
                     // Emit error
                     emit(Resource.Error(ex1))
                 }
+            }
+        }
+    }
+
+    override suspend fun getAuthorPosts(authorID:Int): Flow<Resource<List<PostEntity>>> {
+        return flow {
+            try {
+                // Get data from RemoteDataSource
+                val data = remoteDataSource.getAuthorPosts(authorID)
+                // Emit data
+                emit(Resource.Success(postMapper.fromList(data)))
+            } catch (ex : Exception) {
+                // If remote request fails
+                emit(Resource.Error(ex))
             }
         }
     }

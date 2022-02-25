@@ -6,11 +6,10 @@ import com.example.base.BaseViewModel
 import com.example.common.Mapper
 import com.example.common.Resource
 import com.example.domain.entity.AuthorEntity
-import com.example.domain.usecase.GetAuthorUseCase
+import com.example.domain.usecase.GetAuthorsUseCase
 import com.example.feature.model.AuthorUiModel
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.onStart
-import kotlinx.coroutines.flow.*
 import com.example.feature.ui.contract.MainContract
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
@@ -19,7 +18,7 @@ import javax.inject.Inject
 @HiltViewModel
 class MainViewModel @Inject constructor(
     private val savedStateHandle: SavedStateHandle,
-    private val getAuthorUseCase: GetAuthorUseCase,
+    private val getAuthorsUseCase: GetAuthorsUseCase,
     private val authorMapper : Mapper<AuthorEntity, AuthorUiModel>
 ) : BaseViewModel<MainContract.Event, MainContract.State, MainContract.Effect>(){
 
@@ -47,7 +46,7 @@ class MainViewModel @Inject constructor(
      */
     private fun fetchAuthors() {
         viewModelScope.launch {
-            getAuthorUseCase.execute()
+            getAuthorsUseCase.execute(null)
                     .onStart {
                         emit(Resource.Loading)
                     }
@@ -55,7 +54,8 @@ class MainViewModel @Inject constructor(
                         when (it) {
                             is Resource.Loading -> {
                                 // Set State
-                                setState { copy(authorState = MainContract.AuthorsState.Loading) }
+                                setState { copy(authorState = MainContract.AuthorsState.Loading)
+                                }
                             }
                             is Resource.Empty -> {
                                 // Set State
@@ -74,6 +74,7 @@ class MainViewModel @Inject constructor(
                             }
                             is Resource.Error -> {
                                 // Set Effect
+                                setState { copy(authorState = MainContract.AuthorsState.Idle)}
                                 setEffect { MainContract.Effect.ShowError(message = it.exception.message) }
                             }
                         }
@@ -88,5 +89,10 @@ class MainViewModel @Inject constructor(
     private fun setSelectedAuthor(author : AuthorUiModel?) {
         // Set State
         setState { copy(selectedAuthor = author) }
+    }
+
+    init {
+        setEvent(MainContract.Event.OnFetchAuthors)
+
     }
 }

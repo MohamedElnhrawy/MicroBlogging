@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="base/src/main/res/drawable/ic_search_24.xml" value="0.18385416666666668" />
+        <entry key="base/src/main/res/layout/activity_main.xml" value="0.12182971014492754" />
+        <entry key="base/src/main/res/layout/banner_layout.xml" value="0.25" />
+        <entry key="common/src/main/res/drawable/ic_error.xml" value="0.18385416666666668" />
         <entry key="feature/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="feature/src/main/res/layout/banner_layout.xml" value="0.25" />
+        <entry key="feature/src/main/res/layout/fragment_detail.xml" value="0.17481884057971014" />
+        <entry key="feature/src/main/res/layout/fragment_main.xml" value="0.165" />
+        <entry key="feature/src/main/res/layout/post_author_item_layout.xml" value="0.1" />
+        <entry key="feature/src/main/res/layout/row_author_item_layout.xml" value="0.165" />
+        <entry key="feature/src/main/res/layout/row_post_item_layout.xml" value="0.335" />
       </map>
     </option>
   </component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="banner_success">Success</string>
+    <string name="banner_error">Error</string>
+    <string name="dummy">Dummy</string>
+
+</resources>

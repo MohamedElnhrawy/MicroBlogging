@@ -1,9 +1,7 @@
 package com.example.local.mapper
 
 import com.example.common.Mapper
-import com.example.data.model.AddressDTO
 import com.example.data.model.AuthorDTO
-import com.example.local.model.AddressLocalModel
 import com.example.local.model.AuthorLocalModel
 import javax.inject.Inject
 

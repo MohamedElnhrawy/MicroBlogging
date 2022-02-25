@@ -6,5 +6,4 @@ data class AuthorResponseNetwork(
     val userName: String? = "",
     val email: String? = "",
     val avatarUrl: String? ="",
-//    val address: AddressNetwork? = null
 )

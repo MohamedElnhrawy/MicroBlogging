@@ -7,6 +7,5 @@ data class AuthorEntity(
     val userName: String,
     val email: String,
     val avatarUrl: String,
-//    val address: AddressEntity
 
 )

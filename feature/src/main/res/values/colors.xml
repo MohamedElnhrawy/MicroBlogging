@@ -3,4 +3,10 @@
     <color name="grey_300">#E0E0E0</color>
     <color name="cnr_color">#D35AE8</color>
     <color name="white_opacity">#eeffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#525151</color>
+    <color name="hint">#A1A1A1</color>
+    <color name="black">#000</color>
+    <color name="pale_gray">#F3FAFCFD</color>
+
 </resources>

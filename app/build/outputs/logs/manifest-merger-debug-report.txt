@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [:feature] /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/feature/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:base] /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/base/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-adapters:7.0.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/c945d506ceca6295e20c60cdf76c32f3/transformed/databinding-adapters-7.0.4/AndroidManifest.xml:17:1-22:12
@@ -35,6 +35,7 @@ MERGED from [com.google.dagger:hilt-android:2.41] /Users/mohamedelnhrawy/.gradle
 MERGED from [com.google.android.material:material:1.5.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/e48a1aaf7a00c1ab9bb2ac1aedab384f/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/b333f4ea711408dbf6599ef14ae0a5bf/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/a59896ee621b72d648654c3cc1007bec/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.shasin89:NotificationBanner:1.1.2] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/37c3aa41b13748575c74d799aab41031/transformed/jetified-NotificationBanner-1.1.2/AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/5ab8aba162f672639e69b85c8a88e9be/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/b27544be93a13cc5b58b2260e925fbec/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ca29b9efe18be242cd913ac38aa70157/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
@@ -87,22 +88,24 @@ MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:
 MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/181af6d4183e6c4b11b80a36f7b8687e/transformed/jetified-leakcanary-object-watcher-android-support-fragments-2.4/AndroidManifest.xml:2:1-7:12
 MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/dfd697757124f5d1e0282296e950beb6/transformed/jetified-leakcanary-object-watcher-android-2.4/AndroidManifest.xml:2:1-15:12
 MERGED from [com.squareup.leakcanary:plumber-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/acdd8599481b4c36d90eb67afa5d4ec2/transformed/jetified-plumber-android-2.4/AndroidManifest.xml:2:1-15:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/8a3011e3d96a73b41d81dc27b3214f4d/transformed/jetified-sdp-android-1.0.6/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/2eb6945da23f493b099a109ba46b8b50/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.41] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/b296cde4eb6c91db80405c5fc35235fd/transformed/jetified-dagger-lint-aar-2.41/AndroidManifest.xml:16:1-19:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/304be8d744977a6d38ae904c93beb3f0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:2:11-69
@@ -110,26 +113,14 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:5:5-66
 	android:name
 		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:5:22-64
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:6:5-79
-MERGED from [:feature] /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/feature/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
-MERGED from [:feature] /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/feature/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
-	android:name
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:6:22-76
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:7:5-81
-	android:name
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:7:22-78
-uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:9:5-85
-	android:name
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:9:22-82
 application
-ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:11:5-28:19
+ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:7:5-24:19
 MERGED from [androidx.window:window:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/0fab0517863c057ea1833b4bc3087a1e/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/0fab0517863c057ea1833b4bc3087a1e/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/e48a1aaf7a00c1ab9bb2ac1aedab384f/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/e48a1aaf7a00c1ab9bb2ac1aedab384f/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.shasin89:NotificationBanner:1.1.2] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/37c3aa41b13748575c74d799aab41031/transformed/jetified-NotificationBanner-1.1.2/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.shasin89:NotificationBanner:1.1.2] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/37c3aa41b13748575c74d799aab41031/transformed/jetified-NotificationBanner-1.1.2/AndroidManifest.xml:11:5-12:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/5ab8aba162f672639e69b85c8a88e9be/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/5ab8aba162f672639e69b85c8a88e9be/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ca29b9efe18be242cd913ac38aa70157/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
@@ -158,38 +149,40 @@ MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Use
 MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/dfd697757124f5d1e0282296e950beb6/transformed/jetified-leakcanary-object-watcher-android-2.4/AndroidManifest.xml:7:5-13:19
 MERGED from [com.squareup.leakcanary:plumber-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/acdd8599481b4c36d90eb67afa5d4ec2/transformed/jetified-plumber-android-2.4/AndroidManifest.xml:7:5-13:19
 MERGED from [com.squareup.leakcanary:plumber-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/acdd8599481b4c36d90eb67afa5d4ec2/transformed/jetified-plumber-android-2.4/AndroidManifest.xml:7:5-13:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/2eb6945da23f493b099a109ba46b8b50/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/2eb6945da23f493b099a109ba46b8b50/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/5aa1a4198521598065e255853efe20c1/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:16:9-35
-	android:label
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:14:9-41
-	android:roundIcon
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:15:9-54
-	android:icon
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:13:9-43
-	android:allowBackup
 		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:18:9-54
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:14:9-54
 	android:name
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:17:9-55
-activity#com.example.feature.MainActivity
-ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:19:9-27:20
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:13:9-55
+activity#com.example.feature.ui.main.MainActivity
+ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:exported
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:21:13-36
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:20:13-60
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:16:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:22:13-26:29
+ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml
@@ -256,6 +249,8 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mohamedelnhrawy/.gradl
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/b333f4ea711408dbf6599ef14ae0a5bf/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/a59896ee621b72d648654c3cc1007bec/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/a59896ee621b72d648654c3cc1007bec/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.shasin89:NotificationBanner:1.1.2] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/37c3aa41b13748575c74d799aab41031/transformed/jetified-NotificationBanner-1.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.shasin89:NotificationBanner:1.1.2] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/37c3aa41b13748575c74d799aab41031/transformed/jetified-NotificationBanner-1.1.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/5ab8aba162f672639e69b85c8a88e9be/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/5ab8aba162f672639e69b85c8a88e9be/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/b27544be93a13cc5b58b2260e925fbec/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
@@ -360,6 +355,10 @@ MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Use
 MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/dfd697757124f5d1e0282296e950beb6/transformed/jetified-leakcanary-object-watcher-android-2.4/AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.leakcanary:plumber-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/acdd8599481b4c36d90eb67afa5d4ec2/transformed/jetified-plumber-android-2.4/AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.leakcanary:plumber-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/acdd8599481b4c36d90eb67afa5d4ec2/transformed/jetified-plumber-android-2.4/AndroidManifest.xml:5:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/8a3011e3d96a73b41d81dc27b3214f4d/transformed/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/8a3011e3d96a73b41d81dc27b3214f4d/transformed/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/2eb6945da23f493b099a109ba46b8b50/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/2eb6945da23f493b099a109ba46b8b50/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.dagger:dagger-lint-aar:2.41] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/b296cde4eb6c91db80405c5fc35235fd/transformed/jetified-dagger-lint-aar-2.41/AndroidManifest.xml:18:3-42
 MERGED from [com.google.dagger:dagger-lint-aar:2.41] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/b296cde4eb6c91db80405c5fc35235fd/transformed/jetified-dagger-lint-aar-2.41/AndroidManifest.xml:18:3-42
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/304be8d744977a6d38ae904c93beb3f0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -374,6 +373,10 @@ INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/
 		INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml
 		ADDED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:feature] /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/feature/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:feature] /Users/mohamedelnhrawy/developer/Tasks/MicroBlogging/feature/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/0fab0517863c057ea1833b4bc3087a1e/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
 	android:required

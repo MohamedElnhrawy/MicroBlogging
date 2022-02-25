@@ -48,6 +48,12 @@ dependencies {
     // JetPack
     api "androidx.fragment:fragment-ktx:$fragment_ktx"
 
+    //Banner
+    api "com.github.shasin89:NotificationBanner:$banner"
 
+    api "androidx.constraintlayout:constraintlayout:$constraintlayout"
+
+    //Sdp
+    api "com.intuit.sdp:sdp-android:$sdp"
 
 }

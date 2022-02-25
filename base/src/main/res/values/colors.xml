@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorSuccess">#03bc53</color>
+    <color name="colorError">#e21e00</color>
+    <color name="bannerLayoutBGColor">#03bc53</color>
+    <color name="bannerLayoutTextColor">#FFFFFF</color>
+
+
+</resources>

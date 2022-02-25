@@ -11,6 +11,5 @@ data class AuthorUiModel(
     val userName: String,
     val email: String,
     val avatarUrl: String,
-//    val address: AddressUiModel
 
 ) : Parcelable
