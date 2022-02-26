@@ -72,12 +72,16 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mohamedelnhrawy/.grad
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/80fa63debcf6e7ad103ab9175a14f5df/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/293317af69cf7934845bf41f22b5e065/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/00b2aac1741f93b3c66beada8c88b40e/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.test.ext:junit-ktx:1.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/355a810a27db2a27cdafc8f75ea6dccc/transformed/jetified-junit-ktx-1.1.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.ext:junit:1.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/f26e34a7f7d9683c386faa4203cd5a84/transformed/jetified-junit-1.1.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ecc98beab0b8e2c80c15e1043b14b806/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/1c52237c803980766a80ed5110f9f7e9/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/755017b081f6ffe2eedc8fe82f552ec5/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/c00e75a769cf0a50d2e9520360769db8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/7c417a7981a440027ca09a061f41f945/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/cbc17ec70aef9ee3f3988e36e3d8d898/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:17:1-53:12
+MERGED from [androidx.test:monitor:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/da0b53d954da74dd80acd69abc7c70e2/transformed/monitor-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/c22cf686ab220d3e3a72755a1878808c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/30018e3532ca61f03ecc60ad35acc3da/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/757cd6e55aabf77f854d5ae0c46128ad/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -141,6 +145,8 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mohamedelnhrawy/.gra
 MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/c00e75a769cf0a50d2e9520360769db8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/cbc17ec70aef9ee3f3988e36e3d8d898/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/cbc17ec70aef9ee3f3988e36e3d8d898/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:26:5-51:19
+MERGED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:26:5-51:19
 MERGED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/8ae30c32be0da964fb7f32b36604e416/transformed/jetified-leakcanary-android-2.4/AndroidManifest.xml:22:5-26:19
 MERGED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/8ae30c32be0da964fb7f32b36604e416/transformed/jetified-leakcanary-android-2.4/AndroidManifest.xml:22:5-26:19
 MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/f47a5498cc593af025f074064c797334/transformed/jetified-leakcanary-android-core-2.4/AndroidManifest.xml:28:5-73:19
@@ -323,6 +329,10 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/mohamedelnhrawy
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/293317af69cf7934845bf41f22b5e065/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/00b2aac1741f93b3c66beada8c88b40e/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/00b2aac1741f93b3c66beada8c88b40e/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.test.ext:junit-ktx:1.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/355a810a27db2a27cdafc8f75ea6dccc/transformed/jetified-junit-ktx-1.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:junit-ktx:1.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/355a810a27db2a27cdafc8f75ea6dccc/transformed/jetified-junit-ktx-1.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:junit:1.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/f26e34a7f7d9683c386faa4203cd5a84/transformed/jetified-junit-1.1.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.ext:junit:1.1.3] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/f26e34a7f7d9683c386faa4203cd5a84/transformed/jetified-junit-1.1.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ecc98beab0b8e2c80c15e1043b14b806/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ecc98beab0b8e2c80c15e1043b14b806/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/1c52237c803980766a80ed5110f9f7e9/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
@@ -335,6 +345,10 @@ MERGED from [androidx.tracing:tracing:1.0.0] /Users/mohamedelnhrawy/.gradle/cach
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/7c417a7981a440027ca09a061f41f945/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/cbc17ec70aef9ee3f3988e36e3d8d898/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/cbc17ec70aef9ee3f3988e36e3d8d898/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/da0b53d954da74dd80acd69abc7c70e2/transformed/monitor-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test:monitor:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/da0b53d954da74dd80acd69abc7c70e2/transformed/monitor-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/c22cf686ab220d3e3a72755a1878808c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/c22cf686ab220d3e3a72755a1878808c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/30018e3532ca61f03ecc60ad35acc3da/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
@@ -423,6 +437,36 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mohamedelnhrawy/.
 		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/c6672bfd1ddce17e73bc0b99b11be076/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/c6672bfd1ddce17e73bc0b99b11be076/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+uses-permission#android.permission.REORDER_TASKS
+ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:24:22-69
+activity#androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+	android:exported
+		ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+	android:name
+		ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+	android:exported
+		ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+activity#androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+	android:exported
+		ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from [androidx.test:core:1.4.0] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/ec0e922dd1932fa8c3b3449176086330/transformed/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
 service#leakcanary.internal.HeapAnalyzerService
 ADDED from [com.squareup.leakcanary:leakcanary-android:2.4] /Users/mohamedelnhrawy/.gradle/caches/transforms-3/8ae30c32be0da964fb7f32b36604e416/transformed/jetified-leakcanary-android-2.4/AndroidManifest.xml:23:9-25:40
 	android:exported

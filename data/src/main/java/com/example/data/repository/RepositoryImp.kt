@@ -17,8 +17,8 @@ import javax.inject.Inject
 class RepositoryImp @Inject constructor(
     private val localDataSource: LocalDataSource,
     private val remoteDataSource: RemoteDataSource,
-    private val authorMapper : Mapper<AuthorDTO, AuthorEntity>,
-    private val postMapper : Mapper<PostDTO, PostEntity>,
+    private val authorMapper: Mapper<AuthorDTO, AuthorEntity>,
+    private val postMapper: Mapper<PostDTO, PostEntity>,
 ) : Repository {
     override suspend fun getAuthors(): Flow<Resource<List<AuthorEntity>>> {
         return flow {
@@ -26,23 +26,26 @@ class RepositoryImp @Inject constructor(
                 // Get data from RemoteDataSource
                 val data = remoteDataSource.getAuthors()
                 // Save to local or update if exist
-                for (author in data){
+                for (author in data) {
                     val localId = localDataSource.getItem(author.id).id
-                    if (localId==-1)
+                    if (localId == -1)
                         localDataSource.addItem(author)
                     else
                         localDataSource.updateItem(author)
                 }
                 // Emit data
                 emit(Resource.Success(authorMapper.fromList(data)))
-            } catch (ex : Exception) {
+            } catch (ex: Exception) {
                 // If remote request fails
                 try {
                     // Get data from LocalDataSource
                     val local = localDataSource.getItems()
                     // Emit data
-                    emit(Resource.Success(authorMapper.fromList(local)))
-                } catch (ex1 : Exception) {
+                    if (local.isNotEmpty())
+                        emit(Resource.Success(authorMapper.fromList(local)))
+                    else
+                        emit(Resource.Error(ex))
+                } catch (ex1: Exception) {
                     // Emit error
                     emit(Resource.Error(ex1))
                 }
@@ -50,14 +53,14 @@ class RepositoryImp @Inject constructor(
         }
     }
 
-    override suspend fun getAuthorPosts(authorID:Int): Flow<Resource<List<PostEntity>>> {
+    override suspend fun getAuthorPosts(authorID: Int): Flow<Resource<List<PostEntity>>> {
         return flow {
             try {
                 // Get data from RemoteDataSource
                 val data = remoteDataSource.getAuthorPosts(authorID)
                 // Emit data
                 emit(Resource.Success(postMapper.fromList(data)))
-            } catch (ex : Exception) {
+            } catch (ex: Exception) {
                 // If remote request fails
                 emit(Resource.Error(ex))
             }

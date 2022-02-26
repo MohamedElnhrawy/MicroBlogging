@@ -21,6 +21,7 @@ abstract class BaseFragment<VB : ViewBinding> : Fragment() {
     private var _binding: VB? = null
     abstract val bindLayout: (LayoutInflater, ViewGroup?, Boolean) -> VB
 
+    private  var banner:Banner? = null
     protected val binding : VB
         get() = requireNotNull(_binding)
 
@@ -45,6 +46,11 @@ abstract class BaseFragment<VB : ViewBinding> : Fragment() {
         super.onDestroyView()
     }
 
+    override fun onPause() {
+        banner?.dismissBanner()
+        banner = null
+        super.onPause()
+    }
     fun showSuccessBanner(message: String?) {
         showBanner(message!!, Banner.SUCCESS)
     }
@@ -58,31 +64,29 @@ abstract class BaseFragment<VB : ViewBinding> : Fragment() {
     }
 
     private  fun showBanner(label:String?,message:String?,status:Int){
-        val banner = Banner.make(
+        banner =  Banner.make(
             _binding?.root,
-            _binding?.root?.context,
+            context,
             Banner.TOP,
             R.layout.banner_layout
         )
-        (banner.bannerView.findViewById<View>(R.id.banner_message) as TextView).text = message
+        (banner?.bannerView?.findViewById<View>(R.id.banner_message) as TextView).text = message
         val statusIcon =
-            banner.bannerView.findViewById<ImageView>(R.id.status_icon)
-        val labelView = banner.bannerView.findViewById<TextView>(R.id.banner_label)
+            banner?.bannerView?.findViewById<ImageView>(R.id.status_icon)
+        val labelView = banner?.bannerView?.findViewById<TextView>(R.id.banner_label)
         if (status == Banner.SUCCESS) {
-            statusIcon.background = ResourcesCompat.getDrawable(resources,R.drawable.ic_stat_done,null)
-            banner.bannerView
-                .setBackgroundColor(getColor(resources,R.color.colorSuccess,null))
-            labelView.text =
+            statusIcon?.background = ResourcesCompat.getDrawable(resources,R.drawable.ic_stat_done,null)
+            banner?.bannerView?.setBackgroundColor(getColor(resources,R.color.colorSuccess,null))
+            labelView?.text =
                 if (TextUtils.isEmpty(label)) resources.getString(R.string.banner_success) else label
         } else if (status == Banner.ERROR) {
-            statusIcon.background = ResourcesCompat.getDrawable(resources,R.drawable.ic_stat_error,null)
-            banner.bannerView.setBackgroundColor(getColor(resources,R.color.colorError,null))
-            labelView.text =
+            statusIcon?.background = ResourcesCompat.getDrawable(resources,R.drawable.ic_stat_error,null)
+            banner?.bannerView?.setBackgroundColor(getColor(resources,R.color.colorError,null))
+            labelView?.text =
                 if (TextUtils.isEmpty(label)) resources.getString(R.string.banner_error) else label
         }
-        banner.duration = 4000
-        banner.bannerView
-            .setOnClickListener { v: View? -> banner.dismissBanner() }
-        banner.show()
+        banner?.duration = 4000
+        banner?.bannerView?.setOnClickListener { v: View? -> banner?.dismissBanner() }
+        banner?.show()
     }
 }
